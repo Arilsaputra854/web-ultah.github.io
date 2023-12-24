@@ -7,9 +7,15 @@ body {
 }
 
 #bendera {
-    width: 50%;
+    width: 100%;
 }
 
+#title{
+    font-family: Inter;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
 
 .container-bendera {
     align-items: center;
@@ -25,17 +31,17 @@ body {
 }
 
 .container-cake {
-    margin-top: 30%;
     align-items: center;
     justify-content: center;
     display: flex;
     width: 100%;
+    height: 100vh;
     position: relative;
 }
 
 .container-cake h1 {
     display: block;
-    margin-top: 30%;
+    margin-top: 50%;
     font-family: 'Inter';
     font-weight: bold;
     text-align: center;
@@ -45,7 +51,7 @@ body {
 }
 
 .container-cake img {
-    width: 30%;
+    width: 50%;
     position: absolute;
     z-index: 1;
 }
@@ -55,6 +61,7 @@ body {
     position: relative;
     justify-content: space-between;
     width: 100%;
+    height: 100vh;
 }
 
 .atr-1,
@@ -98,7 +105,6 @@ body {
 }
 
 .paper{
-    background-color: black;
     height: 100vh;
 }
 
