@@ -4,6 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    max-width: 550px;
 }
 
 #bendera {
@@ -34,6 +35,7 @@ body {
     width: 100%;
     position: relative;
 }
+
 
 .container-cake h1 {
     display: block;
@@ -155,4 +157,17 @@ body {
 }
 #one{
     margin-top: 150px;
+}
+
+.title-2{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -100px;
+    display: flex;
+}
+
+.title-2 h1{
+    color: white;
+    position: absolute;
 }
