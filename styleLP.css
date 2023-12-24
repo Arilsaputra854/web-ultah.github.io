@@ -133,11 +133,13 @@ body {
 
 .photo img{
     position: absolute;
-    width: 60%;
-    margin-top: 200px;
+    width: 80%;
     transition: transform 0.3s ease;
 }
 
 .photo img:hover {
-    transform: scale(2); /* Zoom in on hover */
+    transform: scale(1.5) 
+}
+#one{
+    margin-top: 150px;
 }
