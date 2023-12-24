@@ -100,6 +100,19 @@ body {
     width: 40%;
 }
 
+
+.balloon-1 {
+    margin-top: -150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balloon-1 img{
+    width: 40%;
+}
+
+
 .paper{
     background-color: #ED3E73;
     width: 100%;
