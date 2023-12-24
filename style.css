@@ -29,7 +29,7 @@ body{
 .wrapper{
     height: 200px;
     width: 300px;
-    background-color: #3760C9;
+    background-color: #ED3E73;
     display: flex;
     position: relative;
     justify-content: center;
@@ -54,6 +54,10 @@ body{
     margin-top: 10px;
 }
 
+.letter p a{
+    text-decoration: none;
+}
+
 .envelope{
     position: absolute;
     height: 100%;
@@ -61,9 +65,9 @@ body{
     top: 0;
     left: 0;
     border-top:  100px solid transparent;
-    border-right: 150px solid rgb(61, 116, 255);
-    border-left: 150px solid rgb(77, 125, 246);
-    border-bottom: 100px solid rgb(61, 116, 255);
+    border-right: 150px solid #EE5281;
+    border-left: 150px solid #ED3E73;
+    border-bottom: 100px solid #ED3E73;
     z-index: 3;
 }
 
@@ -82,14 +86,14 @@ body{
 
 /* lid when envelope open*/
 .lid.one{
-    border-top: 100px solid #3760C9;
+    border-top: 100px solid #FF5C8D;
     transform: rotateX(0deg);
     z-index: 3;
     transition-delay: 0.75s;
 }
 
 .lid.two{
-    border-top: 100px solid #3760C9;
+    border-top: 100px solid #FF5C8D;
     transform: rotateX(90deg);
     z-index: 1;
     transition-delay: 0.5s;

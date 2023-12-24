@@ -1,94 +1,107 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #ffecd9; /* Light peach background */
+    display: flex;
+    background-color: #ED3E73;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.balloon_container {
-    position: relative;
+#bendera {
+    width: 50%;
+}
+
+
+.container-bendera {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-bendera img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.container-cake {
+    margin-top: 30%;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.container-cake h1 {
+    display: block;
+    margin-top: 30%;
+    font-family: 'Inter';
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 2;
+}
+
+.container-cake img {
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+}
+
+.atr {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.atr-1,
+.atr-2 {
+    width: 20%;
+    max-width: 20%;
+}
+
+.atr-1 img {
+    width: 20%;
+    max-width: 20%;
+    margin-top: -200px;
+}
+
+.atr-2 img {
+    width: 20%;
+    max-width: 20%;
+    margin-top: -150px;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("Inter-ExtraBold.ttf") format("truetype");
 }
 
 .balloon {
+    display: flex;
     position: relative;
-    display: inline-block;
-    font-size: 36px;
-    font-weight: bold;
-    color: #fff;
-    border-radius: 50%;
-    width: 50px;
-    height: 80px; /* Increase height to create a balloon shape */
-    background-color: #ff7f50;
-    line-height: 80px; /* Adjust line-height to vertically center the text */
-    text-align: center;
-    animation: floatUp 3s infinite;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-}
-    
-.balloon1 {
-    background-color: #ff4757; /* Watermelon color */
+    justify-content: space-between;
+    width: 100%; 
+    z-index: 3;
+    margin-top: 80px;
 }
 
-.balloon2 {
-    background-color: #2ed573; /* Mint color */
+.ballon-1{
+    width: 50%;
 }
 
-.balloon3 {
-    background-color: #fffa65;
-    color: rgb(96, 88, 88); /* Sunflower color */
+.ballon-2{
+    width: 50%;
 }
 
-@keyframes floatUp {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+.paper{
+    background-color: black;
+    height: 100vh;
 }
 
-.header {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.header h1 {
-    color: #ff7f50; 
-    font-size: 24px; 
-    margin-bottom: 10px;
-}
-
-.header img {
-    margin-top: 20px;
-    width: 400px;
-}
-
-
-@keyframes fall {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(600px);
-    }
-}
-
-.photoframe img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.photoframe{
-    margin: 50px;
-    border: 10px solid rgb(255, 53, 53);
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
+.paper img{
+    width: 80%;
 }
