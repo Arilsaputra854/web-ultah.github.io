@@ -4,14 +4,15 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    max-width: 550px;
+    margin: 0 auto;
+    max-width: 450px;
 }
 
 #bendera {
     width: 100%;
 }
 
-#title{
+#title {
     font-family: Inter;
     text-align: center;
     font-weight: bold;
@@ -98,7 +99,7 @@ body {
     margin-top: 250px;
 }
 
-.balloon img{
+.balloon img {
     width: 40%;
 }
 
@@ -110,12 +111,12 @@ body {
     align-items: center;
 }
 
-.balloon-1 img{
+.balloon-1 img {
     width: 40%;
 }
 
 
-.paper{
+.paper {
     background-color: #ED3E73;
     width: 100%;
     height: 100vh;
@@ -124,12 +125,12 @@ body {
     align-items: center;
 }
 
-.paper img{
+.paper img {
     width: 100%;
     height: 100vh;
 }
 
-.photo{
+.photo {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -138,7 +139,7 @@ body {
     position: relative;
 }
 
-.photo h1{
+.photo h1 {
     text-align: center;
     color: white;
     font-family: IngridDarling;
@@ -146,20 +147,21 @@ body {
     position: absolute;
 }
 
-.photo img{
+.photo img {
     position: absolute;
     width: 80%;
     transition: transform 0.3s ease;
 }
 
 .photo img:hover {
-    transform: scale(1.5) 
+    transform: scale(1.5)
 }
-#one{
+
+#one {
     margin-top: 150px;
 }
 
-.title-2{
+.title-2 {
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -167,7 +169,7 @@ body {
     display: flex;
 }
 
-.title-2 h1{
+.title-2 h1 {
     color: white;
     position: absolute;
 }
