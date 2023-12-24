@@ -84,6 +84,11 @@ body {
     src: url("font/Inter-ExtraBold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "IngridDarling";
+    src: url("font/IngridDarling-Regular.ttf") format("truetype");
+}
+
 .balloon {
     display: flex;
     justify-content: space-between;
@@ -106,4 +111,33 @@ body {
 
 .paper img{
     width: 100%;
+    height: 100vh;
+}
+
+.photo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.photo h1{
+    text-align: center;
+    color: white;
+    font-family: IngridDarling;
+    font-size: 50px;
+    position: absolute;
+}
+
+.photo img{
+    position: absolute;
+    width: 60%;
+    margin-top: 200px;
+    transition: transform 0.3s ease;
+}
+
+.photo img:hover {
+    transform: scale(2); /* Zoom in on hover */
 }
