@@ -81,7 +81,7 @@ body {
 
 @font-face {
     font-family: "Inter";
-    src: url("Inter-ExtraBold.ttf") format("truetype");
+    src: url("font/Inter-ExtraBold.ttf") format("truetype");
 }
 
 .balloon {

@@ -9,7 +9,7 @@ h3{
     margin-top: 5px;
     text-align: center;
     font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Inter;
 }
 
 h3 a{
@@ -27,8 +27,8 @@ body{
 }
 
 .wrapper{
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
     background-color: #ED3E73;
     display: flex;
     position: relative;
@@ -50,13 +50,10 @@ body{
 
 .letter p{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
-.letter p a{
-    text-decoration: none;
-}
 
 .envelope{
     position: absolute;
@@ -64,10 +61,10 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    border-top:  100px solid transparent;
-    border-right: 150px solid #EE5281;
-    border-left: 150px solid #ED3E73;
-    border-bottom: 100px solid #ED3E73;
+    border-top:  150px solid transparent;
+    border-right: 200px solid #EE5281;
+    border-left: 200px solid #ED3E73;
+    border-bottom: 150px solid #ED3E73;
     z-index: 3;
 }
 
@@ -77,23 +74,23 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-    border-right: 150px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-left: 150px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 200px solid transparent;
     transform-origin: top;
     transition: transform 0.25s linear;
 }
 
 /* lid when envelope open*/
 .lid.one{
-    border-top: 100px solid #FF5C8D;
+    border-top: 150px solid #FF5C8D;
     transform: rotateX(0deg);
     z-index: 3;
     transition-delay: 0.75s;
 }
 
 .lid.two{
-    border-top: 100px solid #FF5C8D;
+    border-top: 150px solid #FF5C8D;
     transform: rotateX(90deg);
     z-index: 1;
     transition-delay: 0.5s;
@@ -112,4 +109,10 @@ body{
 .wrapper:hover .letter{
     transform: translateY(-50px);
     transition-delay: 0.5s;
+}
+
+
+@font-face {
+    font-family: "Inter";
+    src: url("font/Inter-ExtraBold.ttf") format("truetype");
 }
